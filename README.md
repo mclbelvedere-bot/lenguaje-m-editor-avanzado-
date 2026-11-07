@@ -11,3 +11,8 @@ Text.Clean remueve los caracteres invisibles de control o no imprimibles (como s
 
 4. ¿Por qué filtraste los registros "PRUEBA" después de estandarizar la categoría y no antes?
 Debido al comportamiento Case Sensitive de Power Query, antes de estandarizar existían variantes como "PRUEBA", "prueba" o "Prueba". Si se aplicara el filtro each ([categoria] <> "Prueba") antes de Text.Proper, los registros en mayúsculas ("PRUEBA") habrían sido ignorados y permanecerían en la tabla. Al aplicar primero Text.Proper, todos los registros de prueba se convierten unívocamente a "Prueba", permitiendo que el filtro los elimine a todos de forma precisa en un solo paso.
+ ## Evidencias de Ejecución en Power Query
+
+![Vista Previa de la Tabla](Captura de pantalla 2026-11-07 033400.png)
+
+![Editor Avanzado de Power Query](nombre_de_tu_captura_2.png)
