@@ -15,4 +15,4 @@ Debido al comportamiento Case Sensitive de Power Query, antes de estandarizar ex
 
 ![Vista Previa de la Tabla](Captura de pantalla 2026-11-07 033400.png)
 
-![Editor Avanzado de Power Query](nombre_de_tu_captura_2.png)
+![Editor Avanzado de Power Query](Captura de pantalla 2026-11-07 033441.png)
