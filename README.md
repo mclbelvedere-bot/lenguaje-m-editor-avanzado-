@@ -13,6 +13,6 @@ Text.Clean remueve los caracteres invisibles de control o no imprimibles (como s
 Debido al comportamiento Case Sensitive de Power Query, antes de estandarizar existían variantes como "PRUEBA", "prueba" o "Prueba". Si se aplicara el filtro each ([categoria] <> "Prueba") antes de Text.Proper, los registros en mayúsculas ("PRUEBA") habrían sido ignorados y permanecerían en la tabla. Al aplicar primero Text.Proper, todos los registros de prueba se convierten unívocamente a "Prueba", permitiendo que el filtro los elimine a todos de forma precisa en un solo paso.
  ## Evidencias de Ejecución en Power Query
 
-![Vista Previa de la Tabla](Captura de pantalla 2026-11-07 033400.png)
+![Vista Previa de la Tabla](evidencia1.png)
 
-![Editor Avanzado de Power Query](Captura de pantalla 2026-11-07 033441.png)
+![Editor Avanzado de Power Query](evidencia2.png)
